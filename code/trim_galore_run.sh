@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source activate /rsrch3/scratch/leuk-rsrch/huryu/ENV_BIOCONDA/
+module load trim_galore/0.6.5
 
 # In the setting of the following, this folder list can be created as following.
 
