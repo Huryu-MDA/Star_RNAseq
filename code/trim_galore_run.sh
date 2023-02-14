@@ -4,14 +4,13 @@ module load trim_galore/0.6.5
 
 # In the setting of the following, this folder list can be created as following.
 
-
 ### fastq.gz list
-# Sample_10-OCIAML3WT1/Sample_10-OCIAML3WT1_R1.fastq.gz
-# Sample_10-OCIAML3WT1/Sample_10-OCIAML3WT1_R2.fastq.gz
-# Sample_11-OCIAML3WT2/Sample_11-OCIAML3WT2_R1.fastq.gz
-# Sample_11-OCIAML3WT2/Sample_11-OCIAML3WT2_R2.fastq.gz
-# Sample_12-OCIAML3WT3/Sample_12-OCIAML3WT3_R1.fastq.gz
-# Sample_12-OCIAML3WT3/Sample_12-OCIAML3WT3_R2.fastq.gz
+# Sample_1/Sample_1-R1.fastq.gz
+# Sample_1/Sample_1-R2.fastq.gz
+# Sample_2/Sample_2-R1.fastq.gz
+# Sample_2/Sample_2-R2.fastq.gz
+# Sample_3/Sample_3-R1.fastq.gz
+# Sample_3/Sample_4-R2.fastq.gz
 
 # ls */*.fastq.gz | rev | cut -f 2 -d "/" | rev > folder_list
 
